@@ -1,0 +1,110 @@
+[
+  {
+    "id": 9125266325750,
+    "title": "Nike Vomero Plus Orange Pulse",
+    "vendor": "NIKE RUNNING",
+    "price": 17999,
+    "compareAtPrice": 20000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/1_37e7595e-bde4-4c30-ba5e-080fce96859e.png?v=1755093739",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_d616af00-2f8b-4594-b864-f27d0583f241.png?v=1755093739"
+    ],
+    "isSoldOut": false
+  },
+  {
+    "id": 8971872895222,
+    "title": "adidas Adizero Evo SL Black White",
+    "vendor": "ADIDAS RUNNING",
+    "price": 11999,
+    "compareAtPrice": 16000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/hlk.png?v=1765794753",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_7442f246-137c-4a7f-8e0d-51d0e8173f46.png?v=1764011830"
+    ],
+    "isSoldOut": false
+  },
+  {
+    "id": 8827327414518,
+    "title": "On Running Cloudtilt Black Ivory",
+    "vendor": "ON",
+    "price": 17499,
+    "compareAtPrice": 20000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/1_e962b9ce-0de2-4c27-a068-d0ed4b9bbd8f.png",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_e962b9ce-0de2-4c27-a068-d0ed4b9bbd8f.png"
+    ],
+    "isSoldOut": true
+  },
+  {
+    "id": 9125266325751,
+    "title": "Nike Air Max Pulse Roam",
+    "vendor": "NIKE",
+    "price": 14999,
+    "compareAtPrice": 18000,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/1_db3f56ce-d021-4f1a-b68b-59d0a68d0685.png",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_db3f56ce-d021-4f1a-b68b-59d0a68d0685.png"
+    ],
+    "isSoldOut": false
+  },
+  {
+    "id": 8971872895223,
+    "title": "New Balance 550 White Grey",
+    "vendor": "NEW BALANCE",
+    "price": 10999,
+    "compareAtPrice": 13999,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/1_a62e3d36-829d-47be-a5e2-04e4c3a0df47.png",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_a62e3d36-829d-47be-a5e2-04e4c3a0df47.png"
+    ],
+    "isSoldOut": false
+  },
+  {
+    "id": 8827327414519,
+    "title": "Asics Gel-Kayano 14 Silver Cream",
+    "vendor": "ASICS",
+    "price": 16999,
+    "compareAtPrice": 18999,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/1_f32630ce-25bd-4a37-b4d6-f7614d6cd20e.png",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_f32630ce-25bd-4a37-b4d6-f7614d6cd20e.png"
+    ],
+    "isSoldOut": false
+  },
+  {
+    "id": 9125266325752,
+    "title": "Jordan 1 Retro High OG Bred Banned",
+    "vendor": "JORDAN",
+    "price": 35999,
+    "compareAtPrice": null,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/1_c8d7b32d-90d2-43ce-9393-4de1f6188e7b.png",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_c8d7b32d-90d2-43ce-9393-4de1f6188e7b.png"
+    ],
+    "isSoldOut": false
+  },
+  {
+    "id": 8971872895224,
+    "title": "Nike Dunk Low Retro White Black Panda",
+    "vendor": "NIKE",
+    "price": 12999,
+    "compareAtPrice": null,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/1_e6c8b9d3-e20b-4b1e-b8d9-2c09c647b0a3.png",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_e6c8b9d3-e20b-4b1e-b8d9-2c09c647b0a3.png"
+    ],
+    "isSoldOut": false
+  },
+  {
+    "id": 8827327414520,
+    "title": "Yeezy Boost 350 V2 Bone",
+    "vendor": "ADIDAS",
+    "price": 24999,
+    "compareAtPrice": 28999,
+    "images": [
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/1_b0d9e8c4-1234-4a56-b789-c1d2e3f4g5h6.png",
+      "https://cdn.shopify.com/s/files/1/0360/6491/9692/files/2_b0d9e8c4-1234-4a56-b789-c1d2e3f4g5h6.png"
+    ],
+    "isSoldOut": false
+  }
+]

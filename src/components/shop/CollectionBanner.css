@@ -1,0 +1,161 @@
+.collection-banner-container {
+  width: 100%;
+  margin-bottom: var(--spacing-8);
+  overflow: hidden;
+}
+
+.collection-banner-purple {
+  background-color: #3b1792;
+  background-image: linear-gradient(rgba(0,0,0,0.15) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0,0,0,0.15) 1px, transparent 1px);
+  background-size: 60px 60px;
+  position: relative;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.collection-title {
+  color: white;
+  font-size: 6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: 2px;
+  z-index: 10;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.3);
+  animation: textPulse 4s infinite ease-in-out;
+}
+
+@keyframes textPulse {
+  0%, 100% { transform: scale(1); text-shadow: 2px 2px 0px rgba(0,0,0,0.3); }
+  50% { transform: scale(1.03); text-shadow: 4px 4px 15px rgba(0,0,0,0.5); }
+}
+
+.deco-item {
+  position: absolute;
+  z-index: 5;
+  filter: drop-shadow(4px 4px 6px rgba(0,0,0,0.5));
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floatAndRotate {
+  0%, 100% { transform: translateY(0) rotate(var(--base-rotation)); }
+  50% { transform: translateY(-15px) rotate(calc(var(--base-rotation) + 10deg)); }
+}
+
+.deco-notebook {
+  top: 20px;
+  left: 5%;
+  --base-rotation: -15deg;
+  transform: rotate(var(--base-rotation));
+  background: #f4f4f4;
+  padding: 10px 15px;
+  border: 3px solid #111;
+  box-shadow: -4px 4px 0px #111, inset 0px 10px 0px #e0e0e0;
+  border-radius: 4px;
+  animation-name: floatAndRotate;
+  animation-duration: 5s;
+}
+
+.madness-badge {
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  color: #111;
+  text-transform: uppercase;
+}
+
+.deco-headphones {
+  top: 10px;
+  right: 5%;
+  font-size: 7rem;
+  --base-rotation: 20deg;
+  transform: rotate(var(--base-rotation));
+  animation-name: floatAndRotate;
+  animation-delay: 1s;
+}
+
+.deco-smiley {
+  bottom: -10px;
+  right: 10%;
+  font-size: 6rem;
+  --base-rotation: -10deg;
+  transform: rotate(var(--base-rotation));
+  animation-name: floatAndRotate;
+  animation-delay: 0.5s;
+}
+
+.deco-skateboard {
+  bottom: 0px;
+  left: 2%;
+  font-size: 7rem;
+  transform: rotate(15deg) scaleX(-1);
+  animation: floatSkate 4s infinite ease-in-out;
+  animation-delay: 1.5s;
+}
+
+@keyframes floatSkate {
+  0%, 100% { transform: translateY(0) rotate(15deg) scaleX(-1); }
+  50% { transform: translateY(-15px) rotate(25deg) scaleX(-1); }
+}
+
+.collection-banner-black {
+  background-color: #111;
+  color: white;
+  text-align: center;
+  padding: 12px 20px;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+
+.promo-text-main {
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.text-red {
+  color: #ff3333;
+}
+
+.promo-text-sub {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: #ddd;
+  margin-top: 4px;
+}
+
+@media (max-width: 1024px) {
+  .collection-title {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .collection-banner-purple {
+    padding: 60px 10px;
+  }
+  .collection-title {
+    font-size: 2.5rem;
+  }
+  .deco-notebook {
+    left: -10px;
+    transform: scale(0.7) rotate(-15deg);
+  }
+  .deco-headphones, .deco-skateboard, .deco-smiley {
+    font-size: 4rem;
+  }
+  .promo-text-main {
+    font-size: 1.5rem;
+  }
+  .promo-text-sub {
+    font-size: 0.8rem;
+  }
+}

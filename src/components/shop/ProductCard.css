@@ -1,0 +1,114 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-3);
+  cursor: pointer;
+  group: true;
+}
+
+.product-image-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.product-badges {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.wishlist-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 20;
+  background: white;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  color: #111;
+  transition: all 0.2s ease;
+  padding: 0;
+}
+
+.wishlist-btn:hover {
+  transform: scale(1.1);
+}
+
+.wishlist-btn .liked {
+  color: #ff3333;
+  fill: #ff3333;
+}
+
+.product-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out, transform 0.8s ease;
+}
+
+.product-image.primary.hidden {
+  opacity: 0;
+}
+
+.product-image.primary.visible {
+  opacity: 1;
+}
+
+.product-image.secondary.hidden {
+  opacity: 0;
+}
+
+.product-image.secondary.visible {
+  opacity: 1;
+  transform: scale(1.05); /* Slight zoom on hover for premium feel */
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-1);
+}
+
+.product-vendor {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--color-text-light);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.product-title {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+.current-price {
+  font-weight: 600;
+}
+
+.compare-price {
+  font-size: 0.8rem;
+}
