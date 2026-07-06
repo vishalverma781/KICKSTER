@@ -84,7 +84,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <span className="current-price">MRP ₹{product.price.toLocaleString('en-IN')}</span>
           {isSale && (
             <span className="compare-price line-through text-gray">
-              MRP ₹{product.compareAtPrice.toLocaleString('en-IN')}
+              MRP ₹{product.compareAtPrice?.toLocaleString('en-IN')}
             </span>
           )}
         </div>

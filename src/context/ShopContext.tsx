@@ -1,5 +1,5 @@
-import { createContext, useState, ReactNode, useContext } from 'react';
-import { Product } from '../data/products';
+import { createContext, useContext, useState, type ReactNode } from 'react';
+import { type Product } from '../data/products';
 
 type CartItem = Product & { quantity: number };
 

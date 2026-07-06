@@ -1,4 +1,4 @@
-import { Product } from '../data/products';
+import { type Product } from '../data/products';
 import { useShop } from '../context/ShopContext';
 
 export function ProductCard({ product }: { product: Product }) {
