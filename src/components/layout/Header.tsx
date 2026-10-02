@@ -4,7 +4,11 @@ import { SearchDrawer } from './SearchDrawer';
 import { useWishlist } from '../../context/WishlistContext';
 import './Header.css';
 
-export const Header: React.FC = () => {
+interface HeaderProps {
+  setView?: (view: 'shop' | 'admin') => void;
+}
+
+export const Header: React.FC<HeaderProps> = ({ setView }) => {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const { setIsWishlistOpen, wishlistItems } = useWishlist();
 
@@ -26,7 +30,7 @@ export const Header: React.FC = () => {
         </div>
         <div className="header-main container flex items-center justify-between">
           <div className="header-left flex items-center gap-8">
-            <a href="/" className="logo-container">
+            <a href="#" onClick={(e) => { e.preventDefault(); setView && setView('shop'); }} className="logo-container">
               <span className="logo-title font-heading">KICKSTER</span>
               <span className="logo-subtitle">
                 By Rajat & Hansraj
@@ -34,7 +38,7 @@ export const Header: React.FC = () => {
             </a>
             <nav className="desktop-nav">
               <ul className="flex items-center gap-8 font-heading">
-                <li><a href="#">Sneakers</a></li>
+                <li><a href="#" onClick={(e) => { e.preventDefault(); setView && setView('shop'); }}>Sneakers</a></li>
                 <li><a href="#">Streetwear</a></li>
                 <li><a href="#">Accessories</a></li>
                 <li><a href="#">Sale</a></li>
@@ -46,7 +50,7 @@ export const Header: React.FC = () => {
             <button className="icon-btn" aria-label="Search" onClick={() => setIsSearchOpen(true)}>
               <Search size={20} />
             </button>
-            <button className="icon-btn" aria-label="Account">
+            <button className="icon-btn" aria-label="Seller Account" onClick={() => setView && setView('admin')} title="Seller Dashboard">
               <User size={20} />
             </button>
             <button className="icon-btn flex items-center gap-1" aria-label="Wishlist" onClick={() => setIsWishlistOpen(true)}>
