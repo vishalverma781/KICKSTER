@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import './LandingPage.css';
-import { ArrowRight, ShoppingBag, Eye, X } from 'lucide-react';
+import { ArrowRight, ShoppingBag, Eye } from 'lucide-react';
 
 interface LandingPageProps {
   onEnterWebsite: () => void;
