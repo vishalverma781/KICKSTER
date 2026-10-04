@@ -28,7 +28,7 @@ export function LandingPage({ onEnterWebsite }: LandingPageProps) {
       title: 'Premium Fragrances',
       subtitle: 'Discover our exclusive scents',
       image: 'https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&q=80&w=800',
-      pdfUrl: '/Perfume.pdf',
+      pdfUrl: '/Perfume_Discount_Mykickster.com.pdf',
       color: '#ffb84d'
     }
   ];
