@@ -18,13 +18,13 @@ export const Header: React.FC<HeaderProps> = ({ setView }) => {
         <div className="header-top-banner">
           <div className="marquee-track">
             <span className="marquee-text font-heading">
-              GET <span className="text-red">₹500</span> SHIPPING WAIVED OFF BY ADDING CDC SNEAKER WIPES
+              GET <span className="text-red">₹500</span> SHIPPING WAIVED OFF BY ADDING KICKSTER SNEAKER WIPES
             </span>
             <span className="marquee-text font-heading" aria-hidden="true">
-              GET <span className="text-red">₹500</span> SHIPPING WAIVED OFF BY ADDING CDC SNEAKER WIPES
+              GET <span className="text-red">₹500</span> SHIPPING WAIVED OFF BY ADDING KICKSTER SNEAKER WIPES
             </span>
             <span className="marquee-text font-heading" aria-hidden="true">
-              GET <span className="text-red">₹500</span> SHIPPING WAIVED OFF BY ADDING CDC SNEAKER WIPES
+              GET <span className="text-red">₹500</span> SHIPPING WAIVED OFF BY ADDING KICKSTER SNEAKER WIPES
             </span>
           </div>
         </div>
@@ -45,7 +45,7 @@ export const Header: React.FC<HeaderProps> = ({ setView }) => {
               </ul>
             </nav>
           </div>
-          
+
           <div className="header-right flex items-center gap-6">
             <button className="icon-btn" aria-label="Search" onClick={() => setIsSearchOpen(true)}>
               <Search size={20} />
@@ -64,10 +64,10 @@ export const Header: React.FC<HeaderProps> = ({ setView }) => {
             <button className="icon-btn" aria-label="Cart">
               <ShoppingBag size={20} />
             </button>
+          </div>
         </div>
-      </div>
       </header>
-      
+
       <SearchDrawer isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
     </>
   );

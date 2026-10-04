@@ -23,7 +23,7 @@ export const CollectionBanner: React.FC = () => {
           GET <span className="text-red">₹500</span> SHIPPING WAIVED OFF
         </div>
         <div className="promo-text-sub font-heading">
-          BY ADDING CDC SNEAKER WIPES
+          BY ADDING KICKSTER SNEAKER WIPES
         </div>
       </div>
     </div>

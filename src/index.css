@@ -236,3 +236,9 @@ ul {
   background: var(--color-text-light);
   border-radius: 3px;
 }
+
+/* Hide watermark on product images */
+img[src*="cdn.shopify.com"] {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%, 35% 85%, 0 85%);
+}
+
